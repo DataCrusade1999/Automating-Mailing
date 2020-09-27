@@ -10,10 +10,10 @@ def Sending_Mail():
         server.ehlo()
         server.starttls()
         server.ehlo()
-        server.login('ashutosh.pandeyhlr007@gmail.com','mjnawldprrgrhhla')
+        server.login('Your Email','Your_Password')
         msg=MIMEMultipart()
-        msg['From']='ashutosh.pandeyhlr007@gmail.com'
-        msg['To']='johncenahlr002@gmail.com'
+        msg['From']='Your Email'
+        msg['To']='Receiver Email'
         msg['Subject']='Automating Mails'
         with open('Mail.txt','r') as f:
             MailText=f.read()
@@ -26,7 +26,7 @@ def Sending_Mail():
         payload.add_header('Content-disposition',f'attachment;f{filename}')
         msg.attach(payload)
         text=msg.as_string()
-        server.sendmail('ashutosh.pandeyhlr007@gmail.com','johncenahlr002@gmail.com',text)
+        server.sendmail('Your Mail','Receiver Mail',text)
         server.quit()
     except:
         print("Sorry We Couldn't Send Your Mail")
