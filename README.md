@@ -6,4 +6,4 @@ Using MIME And SMTP I've Tried To Automate Mailing Just For Fun😊😊😊
 ## Before Using The Script Delete The While Loop And Just Call The Fucntion.OtherWise You will overload The Server.
 
 
-### If you have 2-Factor Authentication Set-up you might want to watch [Corey Schafer](https://www.youtube.com/watch?v=JRCJ6RtE3xU) start the video at `0:38s`
+### If you have 2-Factor Authentication Set-up you might want to watch [Corey Schafer](https://youtu.be/JRCJ6RtE3xU?t=48) start the video at `0:38s`
